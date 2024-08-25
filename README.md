@@ -1,7 +1,6 @@
 # sql-challenge
 ## Summary
 
-Here’s a summary of the findings based on the SQL challenge:
 
 - Data Modeling
 We identified six CSV files corresponding to different aspects of employee data. The tables designed based on these files are:
