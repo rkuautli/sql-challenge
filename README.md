@@ -1,9 +1,9 @@
 # sql-challenge
-- Summary 
+** Summary 
 
 Here’s a summary of the findings based on the SQL challenge:
 
-1. Data Modeling
+- Data Modeling
 We identified six CSV files corresponding to different aspects of employee data. The tables designed based on these files are:
 
 employees: Holds basic employee information.
@@ -14,7 +14,7 @@ dept_emp: Manages the many-to-many relationship between employees and department
 dept_manager: Links departments with their managers.
 An Entity Relationship Diagram (ERD) was created to visualize how these tables interact through primary and foreign keys.
 
-2. Data Engineering
+- Data Engineering
 We established the SQL table schemas with appropriate data types, constraints, and relationships:
 
 employees table: Employee ID is the primary key.
@@ -25,7 +25,7 @@ dept_emp table: Composite primary key (employee_id, department_id, from_date) wi
 dept_manager table: Composite primary key (department_id, employee_id, from_date) with foreign key references to both departments and employees.
 CSV data was imported into these tables with attention to data types and constraints.
 
-3. Data Analysis
+- Data Analysis
 SQL Queries and Results:
 
 Employee Details: Extracted employee ID, last name, first name, gender, and current salary.
