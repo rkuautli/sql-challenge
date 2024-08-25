@@ -1,5 +1,5 @@
 # sql-challenge
-** Summary **
+## Summary
 
 Here’s a summary of the findings based on the SQL challenge:
 
